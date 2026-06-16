@@ -37,3 +37,38 @@ typedef struct {
     char nome[MAX_NOME];
     long long total_vendido;
 } Produto;
+
+///EXEMPLOS DE ENTRADA
+3
+101 450 Cafe_Premium_Torrado_Moido
+102 800 Acucar_Refinado
+103 650 Leite_Integral
+
+2
+
+2
+101 2
+102 1
+
+3
+101 1
+103 2
+102 1
+
+
+//EXEMPLOS DE SAIDA
+=== CUPOM 0001 ===
+Cafe Premium Torrad 2x R$ 4,50 R$ 9,00
+Acucar Refinado 1x R$ 8,00 R$ 8,00
+TOTAL R$ 17,00
+
+=== CUPOM 0002 ===
+Cafe Premium Torrad 1x R$ 4,50 R$ 4,50
+Leite Integral 2x R$ 6,50 R$ 13,00
+Acucar Refinado 1x R$ 8,00 R$ 8,00
+TOTAL R$ 25,50
+
+=== MAIS VENDIDOS ===
+1o Cafe Premium Torrad 3 un
+2o Acucar Refinado 2 un
+3o Leite Integral 2 un
