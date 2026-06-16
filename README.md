@@ -38,6 +38,13 @@ typedef struct {
     long long total_vendido;
 } Produto;
 
+typedef struct {
+    int n_itens;
+    ItemCupom itens[MAX_ITENS_CUPOM];
+} CupomFiscal;
+
+
+
 ///EXEMPLOS DE ENTRADA
 3
 101 450 Cafe_Premium_Torrado_Moido
@@ -72,3 +79,10 @@ TOTAL R$ 25,50
 1o Cafe Premium Torrad 3 un
 2o Acucar Refinado 2 un
 3o Leite Integral 2 un
+
+//Limitações
+Máximo de 1000 produtos.
+Máximo de 1000 cupons fiscais.
+Máximo de 100 itens por cupom.
+Nomes limitados a 30 caracteres.
+Exibição limitada a 20 caracteres por produto.
