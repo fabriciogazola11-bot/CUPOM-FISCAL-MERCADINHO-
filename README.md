@@ -1,4 +1,4 @@
-# Mercadinho 6
+# CUPOM Mercadinho 
 
 Sistema desenvolvido em linguagem C para processamento de cupons fiscais, cálculo de vendas e geração de ranking dos produtos mais vendidos.
 
