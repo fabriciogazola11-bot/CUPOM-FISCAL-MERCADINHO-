@@ -45,7 +45,7 @@ typedef struct {
 
 
 
-///EXEMPLOS DE ENTRADA
+## EXEMPLOS DE ENTRADA
 3
 101 450 Cafe_Premium_Torrado_Moido
 102 800 Acucar_Refinado
@@ -62,25 +62,24 @@ typedef struct {
 103 2
 102 1
 
-
-//EXEMPLOS DE SAIDA
+## EXEMPLOS DE SAIDA
 === CUPOM 0001 ===
 Cafe Premium Torrad 2x R$ 4,50 R$ 9,00
 Acucar Refinado 1x R$ 8,00 R$ 8,00
 TOTAL R$ 17,00
 
-=== CUPOM 0002 ===
+##=== CUPOM 0002 ===
 Cafe Premium Torrad 1x R$ 4,50 R$ 4,50
 Leite Integral 2x R$ 6,50 R$ 13,00
 Acucar Refinado 1x R$ 8,00 R$ 8,00
 TOTAL R$ 25,50
 
-=== MAIS VENDIDOS ===
+##=== MAIS VENDIDOS ===
 1o Cafe Premium Torrad 3 un
 2o Acucar Refinado 2 un
 3o Leite Integral 2 un
 
-//Limitações
+## Limitações
 Máximo de 1000 produtos.
 Máximo de 1000 cupons fiscais.
 Máximo de 100 itens por cupom.
