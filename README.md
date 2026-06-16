@@ -25,26 +25,6 @@ Os valores monetários são armazenados em centavos para evitar problemas de pre
 ---
 
 ## Estruturas Utilizadas
-
-### Produto
-
-Armazena as informações dos produtos cadastrados.
-
-```c
-typedef struct {
-    int codigo;
-    long long preco;
-    char nome[MAX_NOME];
-    long long total_vendido;
-} Produto;
-
-typedef struct {
-    int n_itens;
-    ItemCupom itens[MAX_ITENS_CUPOM];
-} CupomFiscal;
-
-
-
 ## EXEMPLOS DE ENTRADA
 3
 101 450 Cafe_Premium_Torrado_Moido
@@ -85,3 +65,23 @@ Máximo de 1000 cupons fiscais.
 Máximo de 100 itens por cupom.
 Nomes limitados a 30 caracteres.
 Exibição limitada a 20 caracteres por produto.
+# Produto
+
+Armazena as informações dos produtos cadastrados.
+
+```c
+typedef struct {
+    int codigo;
+    long long preco;
+    char nome[MAX_NOME];
+    long long total_vendido;
+} Produto;
+
+typedef struct {
+    int n_itens;
+    ItemCupom itens[MAX_ITENS_CUPOM];
+} CupomFiscal;
+
+
+
+
